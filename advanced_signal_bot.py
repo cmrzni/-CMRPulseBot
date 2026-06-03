@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes, MessageHandler, filters
 import json, os
 
-TOKEN = os.getenv("8848112088:AAFrQFJnjcFKESHCkuL35dih5Zn4n596ZwA")
+TOKEN = ("8848112088:AAFrQFJnjcFKESHCkuL35dih5Zn4n596ZwA")
 ADMIN_ID = 8551328912  # آیدی عددی خودت
 
 USERS_FILE = "users.json"
